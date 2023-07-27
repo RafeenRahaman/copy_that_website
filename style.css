@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(59, 66, 140);
+}
+
+#top_image_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#nav {
+    display: flex;
+}
+#left_nav {
+    background-image: linear-gradient(yellow,rgb(255, 200, 0));
+    border: solid rgb(219, 172, 54) 2px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 71, 22);
+}
+.topic {
+    border: solid rgb(219, 172, 54) 2px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#all_games {
+    background-image: linear-gradient(yellow,rgb(255, 200, 0));
+    border: solid rgb(219, 172, 54) 2px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 71, 22);
+}
+
+#search_image {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    background-image: linear-gradient(yellow,rgb(255, 200, 0));
+    border: solid rgb(219, 172, 54) 2px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#top_ad {
+    display: flex;
+}
+#top_ad_image {
+    height: 100px;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-right: 20%;
+}
+#new_games {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 10px;
+    color: rgb(94, 180, 208)
+}
+.desc {
+    font-size: 15px;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.image_and_desc {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    height: 100px;
+    margin-top:10px;
+}
+#middle_screen {
+    display:flex;
+    flex-direction: row;
+}
+#left_ad_image {
+    margin-top:20px;
+    width: 200px;
+    height: 600px;
+}
+.game_img {
+    border: solid black 1px;
+}
+#right_ad_image {
+    width: 200px;
+    height: 600px;
+}
